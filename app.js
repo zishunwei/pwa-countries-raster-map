@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-        .register('./sw.js')
+        .register('/pwa-countries-raster-map/sw.js')
         .then(function () {
             console.log('Service worker registered');
         })
